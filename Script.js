@@ -62,3 +62,7 @@ function displayColors(colors) {
         container.appendChild(box);
     });
 }
+
+document.getElementById('backBtn').addEventListener('click', function() {
+    window.location.href = 'https://hansaeng20.github.io/PersonalPortfolio/'; 
+});
